@@ -11,10 +11,11 @@ Basic usage is as follows:
 
 - Run
 
-
+    ```
     ./compile_everything.sh
     ./multiple_spt.sh graph1 graph2 number_of_spt experiment_name
     ./post_process.sh graph1 graph2 experiment_name
+    ```
 
 where the graphs should be in the following format (N = number of nodes, M = number of edges):
 
